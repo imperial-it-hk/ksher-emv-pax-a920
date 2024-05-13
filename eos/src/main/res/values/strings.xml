@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">eos</string>
+    <string name="device_initialization_failed">Device initialization failed</string>
+    <string name="printer_busy">Printer busy</string>
+    <string name="out_of_paper">Out of paper</string>
+    <string name="printer_over_heating">Printer overheating</string>
+    <string name="voltage_is_too_low">Voltage is too low</string>
+    <string name="print_failed">Print failed</string>
+</resources>

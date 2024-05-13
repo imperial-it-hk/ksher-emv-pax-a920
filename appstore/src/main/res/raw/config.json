@@ -1,0 +1,1295 @@
+{
+  "data": {
+    "setting": {
+      "appName": {
+        "label": [
+          "en:Ksher Pay",
+          "th:Ksher Pay"
+        ]
+      },
+      "configVersion": "20210720K",
+      "publicKey": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAL7955OCuN4I8eYNL/mixZWIXIgCvIVEivlxqdpiHPcOLdQ2RPSx/pORpsUu/E9wz0mYS2PY7hNc2mBgBOQT+wUCAwEAAQ==",
+      "paymentDomain": "https://api.mch.ksher.net/KsherPay",
+      "gateWayDomain": "https://gateway.ksher.com/api",
+      "appIdOnline": "mch37142",
+      "tokenOnline": "MIICewIBADANBgkqhkiG9w0BAQEFAASCAmUwggJhAgEAAoGBAJP6TTrwLt38dk+Ifq/M1Q4EM9Qw5DbiL8psogPaxqmiy5qrGH14zK97/Sw638FqBjq/BmXIa6VUFOZiZhAkw7XJzVi/3YGhzhWid814+Iz0T6X/iEVttYj3ftpiNJUTFBZhA8+EEKRyVn2zhTLpY2oKM2zIYYr+86OknpTjzYD5AgMBAAECgYAPSK4LZV1h3j6WDmIPZFepH/P+eaJIrOoEvV2qikE0qjTfX8aixwRVJ7hJhjcwMfQ8wxg1ERNVOy8BcK5Kbh0R6X7bpND7/DhAWZ1tyyHeQWO/KBfG1/bM6MmgAnfjpChy9STbtTe98wX9gvufzU3OjUMpkaJO4wzVwbzkZR4hgQJFAKo0cM8RcN9u++GyH/qz5qI76SOa58tYMCH+oy0RMN3Kr9ZkcNFVA/LLNUGjoEQxcTaipWUSRAt5MB4TepXTgN6mOe6xAj0A3pGh/W3Mpr+VRJvdxhRfTPvsHckGPevL5v7l2c0Poxi9HRJzMOQJgSP9T8f2i+vZipWGPZvrt2e6GJjJAkQtFoE/yV3+QndFPZuNHTUeiwJipTl8O5tclgkB+kjYqEXWZHsiaQQHwF8WSVM+XV6hW4q28JTH+U2O2hgiMooz8RLtsQI9AJmsMA7Nexo++Y9Pl0am1k5POu4t2HN0lWq+4HELlxpjgF/MV2CQcseJ0+L8DAz8IU4Ag5mSSKRvqBxHkQJFAJqH92rz1XXuxGLK9bvh1FZyWLGTyijZzj6LPAaUPkEpZrtoTVdo41EnIao04GEdNOaHGJScaKuLCbpV1mdJ3y340TaQ=",
+      "appIdOffline": "mch38089",
+      "tokenOffline": "MIICegIBADANBgkqhkiG9w0BAQEFAASCAmQwggJgAgEAAoGBAMMJzo2hllQPED5Ox9vOhqUD7OWzYx2ieAyC0jK+ssrGyzoAQS29qncSdqwrvgyyISNGJiYbTP2TZLeHk7WG88l1X911oR0mEG/mJ8St8UVZyNUtVQ6IM5Q/Fm50LpYEm0j2Crlg21Yy7TkbXG9y3scrX8MIuDYbOTo4o7zugeYbAgMBAAECgYB1Ht99p4o5gi4z7GUR9uxeDYRlz5p2gkjq4mhNdryxDj2d3+dEC4BhLqI6862VvCYwI4DnIz/RioBRwcT8ZNCHU0Fg3hF+DQ+K4seWogQY8jY8q5jFATXoT9Wzx9NsqBJG5Fmd5Hz742oGFUeS2o8XalgfKReWvkzXQmtXTxSgiQJFAPOAJGWnxRE+0op2SDq6W730OfMvo1O1J4n+h+m4+Juj+Jo5iu2feXXM+ZEylAIwJFwyz0cB0eIxOdSLrHtjk/irM5ZVAj0AzQzRotthyNRmUZJaVw3kQPNPSII2+leAz5LstSbl7OjpbAqj4CLAbp4q9y3Tu0/Jrc2F7N1U/vJfk5qvAkRf6yJrSONAH9cf4+gf+jkZYpNRUHquBrZEjZdMYijMZpMPbYtkf2WBGfVVVO8ozX4FM56jAfyDdZCqQTr4gAlR816m4QI9AJoLflad/9lTkEbJ72qlOgx9fduYT9tE77WByKjTPzr7Q5lyaOjS0sSHuPmXiRCYgYg79dgb82XRCnKmawJEervn8yZ+PIRvOkBzrRPYBPNZ3+5oYhejmuiAs/vczukklOXgiYDf0Uqugemqdu3YqIrnOfcscjQURPolXQ1owCRmCsY=",
+      "language": "en",
+      "systemPrintGrayDefault": "500",
+      "systemMaxTransNumberDefault": "5000",
+      "logo": "ic_merchant_logo.png",
+      "colorPrimary": "#1583C7",
+      "colorSecondary": "#E6F6FF",
+      "address": "Merchant Address Line1\nMerchant Address Line2\nMerchant Address Line3",
+      "storeId": "00001",
+      "autoSettlementTime": "22:00"
+    },
+    "config": {
+      "communicationType": "MOBILE",
+      "connectionTimeout": "30",
+      "transactionTimeout": "60",
+      "trueMoneyQRTime": "60",
+      "prpmptPayQRTime": "60",
+      "acquirer": "Ksher",
+      "terminalId": "123456",
+      "merchantId": "123456789012345",
+      "defaultCurrencyUnit": "THB"
+    },
+    "password": {
+      "passwordAdmin": "00000",
+      "passwordMerchant": "00000",
+      "passwordVoidAndRefund": "00000",
+      "passwordSettlement": "00000"
+    },
+    "qrLogo": [
+      {
+        "index": 1,
+        "banner": "ic_linepay_banner.png",
+        "icon": "ic_linepay_mini.png",
+        "display": true,
+        "paymentType": "linepay"
+      },
+      {
+        "index": 2,
+        "banner": "ic_promptpay_banner.png",
+        "icon": "ic_promptpay_mini.png",
+        "display": true,
+        "paymentType": "promptpay"
+      },
+      {
+        "index": 3,
+        "banner": "ic_alipay_banner.png",
+        "icon": "ic_alipay_mini.png",
+        "display": true,
+        "paymentType": "alipay"
+      },
+      {
+        "index": 4,
+        "banner": "ic_wechat_banner.png",
+        "icon": "ic_wechat_mini.png",
+        "display": true,
+        "paymentType": "wechat"
+      },
+      {
+        "index": 5,
+        "banner": "ic_truemoney_banner.png",
+        "icon": "ic_truemoney_mini.png",
+        "display": true,
+        "paymentType": "truemoney"
+      },
+      {
+        "index": 6,
+        "banner": "ic_airpay_banner.png",
+        "icon": "ic_airpay_mini.png",
+        "display": true,
+        "paymentType": "airpay"
+      }
+    ],
+    "menusSale": {
+      "label": [
+        "en:Sale",
+        "th:Sale"
+      ],
+      "display": true,
+      "payment": [
+        {
+          "index": 1,
+          "icon": "ic_payment_linepay.png",
+          "label": "LinePay",
+          "display": true,
+          "paymentType": "linepay"
+        },
+        {
+          "index": 2,
+          "icon": "ic_payment_promptpay.png",
+          "label": "PromptPay",
+          "display": false,
+          "paymentType": "promptpay"
+        },
+        {
+          "index": 3,
+          "icon": "ic_payment_alipay.png",
+          "label": "Alipay",
+          "display": true,
+          "paymentType": "alipay"
+        },
+        {
+          "index": 4,
+          "icon": "ic_payment_wechat.png",
+          "label": "WeChat",
+          "display": true,
+          "paymentType": "wechat"
+        },
+        {
+          "index": 5,
+          "icon": "ic_payment_true_money.png",
+          "label": "TrueMoney",
+          "display": true,
+          "paymentType": "truemoney"
+        },
+        {
+          "index": 6,
+          "icon": "ic_payment_shopee.png",
+          "label": "ShopeePay",
+          "display": true,
+          "paymentType": "airpay"
+        }
+      ]
+    },
+    "menusMain": [
+      {
+        "index": 1,
+        "icon": "ic_scan.png",
+        "label": [
+          "en:Scan",
+          "th:Scan"
+        ],
+        "display": true,
+        "payment": [
+          {
+            "index": 1,
+            "icon": "ic_payment_linepay.png",
+            "label": "LinePay",
+            "display": true,
+            "paymentType": "linepay"
+          },
+          {
+            "index": 2,
+            "icon": "ic_payment_promptpay.png",
+            "label": "PromptPay",
+            "display": true,
+            "paymentType": "promptpay"
+          },
+          {
+            "index": 3,
+            "icon": "ic_payment_alipay.png",
+            "label": "Alipay",
+            "display": true,
+            "paymentType": "alipay"
+          },
+          {
+            "index": 4,
+            "icon": "ic_payment_wechat.png",
+            "label": "WeChat",
+            "display": true,
+            "paymentType": "wechat"
+          },
+          {
+            "index": 5,
+            "icon": "ic_payment_true_money.png",
+            "label": "TrueMoney",
+            "display": true,
+            "paymentType": "truemoney"
+          },
+          {
+            "index": 6,
+            "icon": "ic_payment_shopee.png",
+            "label": "ShopeePay",
+            "display": true,
+            "paymentType": "airpay"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "icon": "ic_void.png",
+        "label": [
+          "en:Void",
+          "th:Void"
+        ],
+        "display": true,
+        "payment": [
+          {
+            "index": 1,
+            "icon": "ic_payment_linepay.png",
+            "label": "LinePay",
+            "display": true,
+            "paymentType": "linepay"
+          },
+          {
+            "index": 2,
+            "icon": "ic_payment_promptpay.png",
+            "label": "PromptPay",
+            "display": true,
+            "paymentType": "promptpay"
+          },
+          {
+            "index": 3,
+            "icon": "ic_payment_alipay.png",
+            "label": "Alipay",
+            "display": true,
+            "paymentType": "alipay"
+          },
+          {
+            "index": 4,
+            "icon": "ic_payment_wechat.png",
+            "label": "WeChat",
+            "display": true,
+            "paymentType": "wechat"
+          },
+          {
+            "index": 5,
+            "icon": "ic_payment_true_money.png",
+            "label": "TrueMoney",
+            "display": true,
+            "paymentType": "truemoney"
+          },
+          {
+            "index": 6,
+            "icon": "ic_payment_shopee.png",
+            "label": "ShopeePay",
+            "display": true,
+            "paymentType": "airpay"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "icon": "ic_settlement.png",
+        "label": [
+          "en:Settlement",
+          "th:Settlement"
+        ],
+        "display": true
+      },
+      {
+        "index": 4,
+        "icon": "ic_query.png",
+        "label": [
+          "en:Query",
+          "th:Query"
+        ],
+        "display": true
+      },
+      {
+        "index": 5,
+        "icon": "ic_print.png",
+        "label": [
+          "en:Print",
+          "th:Print"
+        ],
+        "display": true,
+        "payment": [
+          {
+            "index": 1,
+            "icon": "ic_payment_linepay.png",
+            "label": "LinePay",
+            "display": true,
+            "paymentType": "linepay"
+          },
+          {
+            "index": 2,
+            "icon": "ic_payment_promptpay.png",
+            "label": "PromptPay",
+            "display": true,
+            "paymentType": "promptpay"
+          },
+          {
+            "index": 3,
+            "icon": "ic_payment_alipay.png",
+            "label": "Alipay",
+            "display": true,
+            "paymentType": "alipay"
+          },
+          {
+            "index": 4,
+            "icon": "ic_payment_wechat.png",
+            "label": "WeChat",
+            "display": true,
+            "paymentType": "wechat"
+          },
+          {
+            "index": 5,
+            "icon": "ic_payment_true_money.png",
+            "label": "TrueMoney",
+            "display": true,
+            "paymentType": "truemoney"
+          },
+          {
+            "index": 6,
+            "icon": "ic_payment_shopee.png",
+            "label": "ShopeePay",
+            "display": true,
+            "paymentType": "airpay"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "icon": "ic_report.png",
+        "label": [
+          "en:Report",
+          "th:Report"
+        ],
+        "display": true
+      },
+      {
+        "index": 7,
+        "icon": "ic_more.png",
+        "label": [
+          "en:More",
+          "th:อื่นๆ"
+        ],
+        "display": true
+      }
+    ],
+    "menusMore": [
+      {
+        "index": 1,
+        "icon": "ic_history.png",
+        "label": [
+          "en:History",
+          "th:History"
+        ],
+        "display": true
+      },
+      {
+        "index": 2,
+        "icon": "ic_setting.png",
+        "label": [
+          "en:Setting",
+          "th:Setting"
+        ],
+        "display": true
+      },
+      {
+        "index": 3,
+        "icon": "ic_about.png",
+        "label": [
+          "en:About",
+          "th:About"
+        ],
+        "display": true
+      }
+    ],
+    "menusSetting": [
+      {
+        "index": 1,
+        "icon": "ic_password.png",
+        "label": [
+          "en:Password",
+          "th:Password"
+        ],
+        "display": true
+      },
+      {
+        "index": 2,
+        "icon": "ic_config.png",
+        "label": [
+          "en:Config",
+          "th:Config"
+        ],
+        "display": true
+      },
+      {
+        "index": 3,
+        "icon": "ic_update.png",
+        "label": [
+          "en:Update Param",
+          "th:Update Param"
+        ],
+        "display": true
+      },
+      {
+        "index": 4,
+        "icon": "ic_language.png",
+        "label": [
+          "en:Language",
+          "th:ภาษา"
+        ],
+        "display": true
+      }
+    ],
+    "menusPassword": [
+      {
+        "index": 1,
+        "icon": "ic_password_merchant.png",
+        "label": [
+          "en:Merchant",
+          "th:Merchant"
+        ],
+        "display": true
+      },
+      {
+        "index": 2,
+        "icon": "ic_password_void.png",
+        "label": [
+          "en:Void/Refund",
+          "th:Void/Refund"
+        ],
+        "display": true
+      },
+      {
+        "index": 3,
+        "icon": "ic_password_settlement.png",
+        "label": [
+          "en:Settlement",
+          "th:Settlement"
+        ],
+        "display": true
+      }
+    ],
+    "menusOther": [
+      {
+        "index": 1,
+        "icon": "ic_echo.png",
+        "label": [
+          "en:Echo Test",
+          "th:Echo Test"
+        ],
+        "display": true
+      }
+    ],
+    "footer": {
+      "disclaimerTxt": "I ACKNOWLEGDE SATISFACTORY\nRECEIPT OF RELATIVE GOODS/SERVICE",
+      "labelFooter": "*** NO REFUND *** \nThank you, Have a nice day.",
+      "display": true,
+      "icon": "ic_promotion_logo.png"
+    },
+    "language": [
+      "en:English",
+      "th:ภาษาไทย"
+    ],
+    "button": {
+      "buttonOk": {
+        "label": [
+          "en:OK",
+          "th:OK"
+        ],
+        "display": true
+      },
+      "buttonCancel": {
+        "label": [
+          "en:Cancel",
+          "th:Cancel"
+        ],
+        "display": true
+      },
+      "buttonShow": {
+        "label": [
+          "en:Show",
+          "th:Show"
+        ],
+        "display": true
+      },
+      "buttonPrint": {
+        "label": [
+          "en:Print",
+          "th:Print"
+        ],
+        "display": true
+      },
+      "buttonDelete": {
+        "label": [
+          "en:Delete",
+          "th:Delete"
+        ],
+        "display": true
+      },
+      "buttonPay": {
+        "label": [
+          "en:Pay",
+          "th:Pay"
+        ],
+        "display": true
+      },
+      "buttonAllPayment": {
+        "label": [
+          "en:All Payment Type",
+          "th:All Payment Type"
+        ],
+        "display": true
+      },
+      "buttonSelectPayment": {
+        "label": [
+          "en:Select Payment Type",
+          "th:Select Payment Type"
+        ],
+        "display": true
+      },
+      "buttonSummaryReport": {
+        "label": [
+          "en:Summary Report",
+          "th:Summary Report"
+        ],
+        "display": true
+      },
+      "buttonAuditReport": {
+        "label": [
+          "en:Audit Report",
+          "th:Audit Report"
+        ],
+        "display": true
+      },
+      "buttonLastTransaction": {
+        "label": [
+          "en:Last Transaction",
+          "th:Last Transaction"
+        ],
+        "display": true
+      },
+      "buttonSuspendedQR": {
+        "label": [
+          "en:Suspended QR",
+          "th:Suspended QR"
+        ],
+        "display": true
+      },
+      "buttonAnyTransaction": {
+        "label": [
+          "en:Any Transaction",
+          "th:Any Transaction"
+        ],
+        "display": true
+      },
+      "buttonLastSettlement": {
+        "label": [
+          "en:Last Settlement",
+          "th:Last Settlement"
+        ],
+        "display": true
+      },
+      "buttonPostpone": {
+        "label": [
+          "en:Postpone",
+          "th:Postpone"
+        ],
+        "display": true
+      },
+      "buttonSummaryByDate": {
+        "label": [
+          "en:Summary by Date",
+          "th:Summary by Date"
+        ],
+        "display": true
+      },
+      "buttonSummaryPayment": {
+        "label": [
+          "en:Summary by Payment type",
+          "th:Summary by Payment type"
+        ],
+        "display": true
+      },
+      "buttonDetailByDate": {
+        "label": [
+          "en:Detail by Date",
+          "th:Detail by Date"
+        ],
+        "display": true
+      },
+      "buttonDetailPayment": {
+        "label": [
+          "en:Detail by Payment type",
+          "th:Detail by Payment type"
+        ],
+        "display": true
+      },
+      "buttonCommunication": {
+        "label": [
+          "en:Communication Type",
+          "th:Communication Type"
+        ],
+        "icon": "ic_communication.png",
+        "display": true
+      },
+      "buttonCommDetail": {
+        "label": [
+          "en:Comm Detail",
+          "th:Comm Detail"
+        ],
+        "icon": "ic_comm_detail.png",
+        "display": true
+      },
+      "buttonAcquirer": {
+        "label": [
+          "en:Acquirer",
+          "th:Acquirer"
+        ],
+        "icon": "ic_acquirer.png",
+        "display": true
+      },
+      "buttonPassword": {
+        "label": [
+          "en:Password",
+          "th:Password"
+        ],
+        "icon": "ic_password.png",
+        "display": true
+      },
+      "buttonTransactionSetting": {
+        "label": [
+          "en:Transaction Setting",
+          "th:Transaction Setting"
+        ],
+        "icon": "ic_tran_setting.png",
+        "display": true
+      },
+      "buttonOther": {
+        "label": [
+          "en:Other",
+          "th:อื่นๆ"
+        ],
+        "icon": "ic_other.png",
+        "display": true
+      },
+      "buttonConfirm": {
+        "label": [
+          "en:Confirm",
+          "th:Confirm"
+        ],
+        "display": true
+      }
+    },
+    "stringFile": {
+      "updateVersionLabel": {
+        "label": [
+          "en:If empty will update all parameters",
+          "th:If empty will update all parameters"
+        ]
+      },
+      "forceSettlementLabel": {
+        "label": [
+          "en:Force Settlement",
+          "th:Force Settlement"
+        ]
+      },
+      "processLabel": {
+        "label": [
+          "en:Processing ...",
+          "th:Processing ..."
+        ]
+      },
+      "selectPaymentTypeLabel": {
+        "label": [
+          "en:Select Payment Type",
+          "th:Select Payment Type"
+        ]
+      },
+      "amountConfirmationLabel": {
+        "label": [
+          "en:Amount Confirmation",
+          "th:Amount Confirmation"
+        ]
+      },
+      "pressOkToPrintSlipLabel": {
+        "label": [
+          "en:Press OK to print slip",
+          "th:Press OK to print slip"
+        ]
+      },
+      "inputPasswordForVoidLabel": {
+        "label": [
+          "en:Input password for VOID",
+          "th:Input password for VOID"
+        ]
+      },
+      "voidLabel": {
+        "label": [
+          "en:VOID",
+          "th:VOID"
+        ]
+      },
+      "inputTraceNumberLabel": {
+        "label": [
+          "en:Input Trace number or scan QRCode on sale slip for VOID/REFUND",
+          "th:Input Trace number or scan QRCode on sale slip for VOID/REFUND"
+        ]
+      },
+      "transTypeLabel": {
+        "label": [
+          "en:Trans Type",
+          "th:Trans Type"
+        ]
+      },
+      "walletLabel": {
+        "label": [
+          "en:Wallet",
+          "th:Wallet"
+        ]
+      },
+      "amountLabel": {
+        "label": [
+          "en:Amount",
+          "th:Amount"
+        ]
+      },
+      "selectReportTypeLabel": {
+        "label": [
+          "en:Select Report Type",
+          "th:Select Report Type"
+        ]
+      },
+      "summaryReportLabel": {
+        "label": [
+          "en:Summary Report",
+          "th:Summary Report"
+        ]
+      },
+      "summaryReportAllPaymentLabel": {
+        "label": [
+          "en:Summary Report All Payment",
+          "th:Summary Report All Payment"
+        ]
+      },
+      "auditReportLabel": {
+        "label": [
+          "en:Audit Report",
+          "th:Audit Report"
+        ]
+      },
+      "auditReportAllPaymentLabel": {
+        "label": [
+          "en:Audit Report All Payment",
+          "th:Audit Report All Payment"
+        ]
+      },
+      "inputPasswordForSettlementLabel": {
+        "label": [
+          "en:Input Password for Settlement",
+          "th:Input Password for Settlement"
+        ]
+      },
+      "settlementLabel": {
+        "label": [
+          "en:Settlement",
+          "th:Settlement"
+        ]
+      },
+      "checkSuspendedQrLabel": {
+        "label": [
+          "en:Check Suspended QR...",
+          "th:Check Suspended QR..."
+        ]
+      },
+      "messageInquirySuspendedQrLabel": {
+        "label": [
+          "en:Found $ items for suspended QR, Inquiry now.",
+          "th:Found $ items for suspended QR, Inquiry now."
+        ]
+      },
+      "inquirySuspendedQrLabel": {
+        "label": [
+          "en:Inquiry Suspended QR...",
+          "th:Inquiry Suspended QR..."
+        ]
+      },
+      "messageSettlementSuspendedQrLabel": {
+        "label": [
+          "en:Found %1s items for suspended QR, you have to settlement now.",
+          "th:Found %1s items for suspended QR, you have to settlement now."
+        ]
+      },
+      "messageSettlementSuspendedQrInquiryNowLabel": {
+        "label": [
+          "en:Found %1s items for suspended QR, Inquiry now.",
+          "th:Found %1s items for suspended QR, Inquiry now."
+        ]
+      },
+      "settlementStartLabel": {
+        "label": [
+          "en:Start Settlement...",
+          "th:Start Settlement..."
+        ]
+      },
+      "settlementSuccessLabel": {
+        "label": [
+          "en:Settlement Success",
+          "th:Settlement Success"
+        ]
+      },
+      "settlementFailLabel": {
+        "label": [
+          "en:Settlement Fail",
+          "th:Settlement Fail"
+        ]
+      },
+      "queryTransactionLabel": {
+        "label": [
+          "en:Query Transaction...",
+          "th:Query Transaction..."
+        ]
+      },
+      "messageTransactionFoundLabel": {
+        "label": [
+          "en:No Transaction Found.",
+          "th:No Transaction Found."
+        ]
+      },
+      "qrInquiryLastTranLabel": {
+        "label": [
+          "en:QR Inquiry Last transaction",
+          "th:QR Inquiry Last transaction"
+        ]
+      },
+      "qrInquirySuspendedLabel": {
+        "label": [
+          "en:QR Inquiry Suspended QR",
+          "th:QR Inquiry Suspended QR"
+        ]
+      },
+      "qrInquiryAnyTransactionLabel": {
+        "label": [
+          "en:QR Inquiry Any transaction",
+          "th:QR Inquiry Any transaction"
+        ]
+      },
+      "qrInquiryLabel": {
+        "label": [
+          "en:QR Inquiry",
+          "th:QR Inquiry"
+        ]
+      },
+      "inputTraceLabel": {
+        "label": [
+          "en:Input Trace No.",
+          "th:Input Trace No."
+        ]
+      },
+      "transactionFailLabel": {
+        "label": [
+          "en:Transaction Failure.",
+          "th:Transaction Failure."
+        ]
+      },
+      "transactionTimeoutLabel": {
+        "label": [
+          "en:Transaction Timeout",
+          "th:Transaction Timeout"
+        ]
+      },
+      "noTransactionLabel": {
+        "label": [
+          "en:No Transaction",
+          "th:No Transaction"
+        ]
+      },
+      "printLabel": {
+        "label": [
+          "en:Print",
+          "th:Print"
+        ]
+      },
+      "selectChoiceToPrintLabel": {
+        "label": [
+          "en:Select choice to print",
+          "th:Select choice to print"
+        ]
+      },
+      "lastTransactionLabel": {
+        "label": [
+          "en:Last Transaction",
+          "th:Last Transaction"
+        ]
+      },
+      "AnyTransactionLabel": {
+        "label": [
+          "en:Any Transaction",
+          "th:Any Transaction"
+        ]
+      },
+      "lastSettlementLabel": {
+        "label": [
+          "en:Last Settlement",
+          "th:Last Settlement"
+        ]
+      },
+      "dataNotFoundLabel": {
+        "label": [
+          "en:Data not found",
+          "th:Data not found"
+        ]
+      },
+      "clickAgainToExitLabel": {
+        "label": [
+          "en:Click again to exit",
+          "th:Click again to exit"
+        ]
+      },
+      "pleaseDoSettlementLabel": {
+        "label": [
+          "en:Please do settlement",
+          "th:Please do settlement"
+        ]
+      },
+      "passwordEnterMerchantLabel": {
+        "label": [
+          "en:Please enter Merchant password",
+          "th:Please enter Merchant password"
+        ]
+      },
+      "passwordEnterAdminLabel": {
+        "label": [
+          "en:Please enter System Administrator password",
+          "th:Please enter System Administrator password"
+        ]
+      },
+      "passwordNewLabel": {
+        "label": [
+          "en:New Password",
+          "th:New Password"
+        ]
+      },
+      "passwordVerifyNewLabel": {
+        "label": [
+          "en:Verify New Password",
+          "th:Verify New Password"
+        ]
+      },
+      "passwordOldLabel": {
+        "label": [
+          "en:Old Password",
+          "th:Old Password"
+        ]
+      },
+      "passwordSuccessLabel": {
+        "label": [
+          "en:Update password success",
+          "th:Update password success"
+        ]
+      },
+      "passwordFailLabel": {
+        "label": [
+          "en:Update password fail",
+          "th:Update password fail"
+        ]
+      },
+      "settingLabel": {
+        "label": [
+          "en:Setting",
+          "th:Setting"
+        ]
+      },
+      "passwordLabel": {
+        "label": [
+          "en:Password",
+          "th:Password"
+        ]
+      },
+      "merchantLabel": {
+        "label": [
+          "en:Merchant",
+          "th:Merchant"
+        ]
+      },
+      "voidAndRefundLabel": {
+        "label": [
+          "en:Void/Refund",
+          "th:Void/Refund"
+        ]
+      },
+      "moreLabel": {
+        "label": [
+          "en:More",
+          "th:More"
+        ]
+      },
+      "transactionHistoryLabel": {
+        "label": [
+          "en:Transaction History",
+          "th:Transaction History"
+        ]
+      },
+      "detailLabel": {
+        "label": [
+          "en:Detail",
+          "th:Detail"
+        ]
+      },
+      "summaryLabel": {
+        "label": [
+          "en:Summary",
+          "th:Summary"
+        ]
+      },
+      "tranSummaryByDateLabel": {
+        "label": [
+          "en:Transaction Summary By Date",
+          "th:Transaction Summary By Date"
+        ]
+      },
+      "tranSummaryByPaymentLabel": {
+        "label": [
+          "en:Transaction Summary By Payment",
+          "th:Transaction Summary By Payment"
+        ]
+      },
+      "declinedLabel": {
+        "label": [
+          "en:Declined",
+          "th:Declined"
+        ]
+      },
+      "aboutLabel": {
+        "label": [
+          "en:About",
+          "th:About"
+        ]
+      },
+      "softwareVersionLabel": {
+        "label": [
+          "en:Software Version No.",
+          "th:Software Version No."
+        ]
+      },
+      "configurationLabel": {
+        "label": [
+          "en:Configuration File",
+          "th:Configuration File"
+        ]
+      },
+      "resourceLabel": {
+        "label": [
+          "en:Resource File",
+          "th:Resource File"
+        ]
+      },
+      "configLabel": {
+        "label": [
+          "en:Config",
+          "th:Config"
+        ]
+      },
+      "communicationLabel": {
+        "label": [
+          "en:Communication Type",
+          "th:Communication Type"
+        ]
+      },
+      "commLabel": {
+        "label": [
+          "en:Comm Detail",
+          "th:Comm Detail"
+        ]
+      },
+      "acquirerLabel": {
+        "label": [
+          "en:Acquirer",
+          "th:Acquirer"
+        ]
+      },
+      "TransactionSettingLabel": {
+        "label": [
+          "en:Transaction Setting",
+          "th:Transaction Setting"
+        ]
+      },
+      "otherLabel": {
+        "label": [
+          "en:Other",
+          "th:อื่นๆ"
+        ]
+      },
+      "connectionTimeoutLabel": {
+        "label": [
+          "en:Connection Timeout",
+          "th:Connection Timeout"
+        ]
+      },
+      "apnLabel": {
+        "label": [
+          "en:APN",
+          "th:APN"
+        ]
+      },
+      "openWifiLabel": {
+        "label": [
+          "en:Open Wifi Setting",
+          "th:Open Wifi Setting"
+        ]
+      },
+      "traceNoLabel": {
+        "label": [
+          "en:Trace No.",
+          "th:Trace No."
+        ]
+      },
+      "terminalIDLabel": {
+        "label": [
+          "en:Terminal ID",
+          "th:Terminal ID"
+        ]
+      },
+      "merchantIDLabel": {
+        "label": [
+          "en:Merchant ID",
+          "th:Merchant ID"
+        ]
+      },
+      "batchNoLabel": {
+        "label": [
+          "en:BATCH No.",
+          "th:BATCH No."
+        ]
+      },
+      "pleaseInputLabel": {
+        "label": [
+          "en:Please input",
+          "th:Please input"
+        ]
+      },
+      "selectFunctionLabel": {
+        "label": [
+          "en:Select Function",
+          "th:Select Function"
+        ]
+      },
+      "printCustomerCopyLabel": {
+        "label": [
+          "en:Print Customer copy",
+          "th:Print Customer copy"
+        ]
+      },
+      "inputPasswordLabel": {
+        "label": [
+          "en:Input password",
+          "th:Input password"
+        ]
+      },
+      "transactionNotFoundLabel": {
+        "label": [
+          "en:Transaction not found",
+          "th:Transaction not found"
+        ]
+      },
+      "transactionAlreadyVoidLabel": {
+        "label": [
+          "en:Transaction already void",
+          "th:Transaction already void"
+        ]
+      },
+      "transactionAlreadyRefundLabel": {
+        "label": [
+          "en:Transaction already refund",
+          "th:Transaction already refund"
+        ]
+      },
+      "approvedLabel": {
+        "label": [
+          "en:Approved",
+          "th:Approved"
+        ]
+      },
+      "secondsLabel": {
+        "label": [
+          "en:Seconds",
+          "th:Seconds"
+        ]
+      },
+      "checkTransactionLabel": {
+        "label": [
+          "en:Check transaction...",
+          "th:Check transaction..."
+        ]
+      },
+      "queryHistoryLabel": {
+        "label": [
+          "en:Query History...",
+          "th:Query History..."
+        ]
+      },
+      "noTransactionFoundLabel": {
+        "label": [
+          "en:No Transactions Found for SETTLEMENT",
+          "th:No Transactions Found for SETTLEMENT"
+        ]
+      },
+      "deleteSuspendQRTracNoLabel": {
+        "label": [
+          "en:Delete Suspended QR Trace No.",
+          "th:Delete Suspended QR Trace No."
+        ]
+      },
+      "inquiryLabel": {
+        "label": [
+          "en:Inquiry...",
+          "th:Inquiry..."
+        ]
+      },
+      "querySuspendedQRLabel": {
+        "label": [
+          "en:Query Suspended QR...",
+          "th:Query Suspended QR..."
+        ]
+      },
+      "noSuspendedQRFoundLabel": {
+        "label": [
+          "en:No Suspended QR Found.",
+          "th:No Suspended QR Found."
+        ]
+      },
+      "unknownErrorLabel": {
+        "label": [
+          "en:Unknown Error",
+          "th:Unknown Error"
+        ]
+      },
+      "suspendedLabel": {
+        "label": [
+          "en:Suspended",
+          "th:Suspended"
+        ]
+      },
+      "pleaseContactAdminLabel": {
+        "label": [
+          "en:Please contact administrator",
+          "th:Please contact administrator"
+        ]
+      },
+      "generateQRLabel": {
+        "label": [
+          "en:Generate QR",
+          "th:Generate QR"
+        ]
+      },
+      "processErrorLabel": {
+        "label": [
+          "en:processError",
+          "th:processError"
+        ]
+      },
+      "noQRImageFromHostLabel": {
+        "label": [
+          "en:No QR Image From HOST",
+          "th:No QR Image From HOST"
+        ]
+      },
+      "passwordIsIncorrectLabel": {
+        "label": [
+          "en:Password is incorrect.",
+          "th:Password is incorrect."
+        ]
+      },
+      "languageLabel": {
+        "label": [
+          "en:Language",
+          "th:ภาษา"
+        ]
+      },
+      "updateSuccessLabel": {
+        "label": [
+          "en:Update Success",
+          "th:Update Success"
+        ]
+      },
+      "loadingLabel": {
+        "label": [
+          "en:Loading...",
+          "th:Loading..."
+        ]
+      },
+      "allTransactionNeedSettledLabel": {
+        "label": [
+          "en:Settles all transaction before starting this function",
+          "th:Settles all transaction before starting this function"
+        ]
+      },
+      "autoSettlementLabel": {
+        "label": [
+          "en:Auto Settlement in (%ss.)",
+          "th:Auto Settlement in (%ss.)"
+        ]
+      }
+    }
+  }
+}

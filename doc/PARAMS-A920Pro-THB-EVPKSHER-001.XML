@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Schema>
+    <Groups>
+        <Group>
+            <ID>parameter_group_id</ID>
+            <Title>Parameter Configuration</Title>
+            <Order>1</Order>
+            <Description></Description>
+        </Group>
+    </Groups>
+    <Files>
+        <File>
+            <ID>parameter_file_id</ID>
+            <FileName>app-evpksher-params.p</FileName>
+            <Description></Description>
+        </File>
+    </Files>
+    <Parameters>
+        <Header>
+            <Title>Basic Config</Title>
+            <DisplayStyle>foldable</DisplayStyle>
+            <DefaultStyle>close</DefaultStyle>
+            <Display>true</Display>
+            <!-- Parameter Version -->
+            <Parameter>
+                <Type>single</Type>
+                <InputType>text</InputType>
+                <DataType>Number_String</DataType>
+                <PID>key_version</PID>
+                <Title>Parameter Version</Title>
+                <Length>9</Length>
+                <Required>true</Required>
+                <Readonly>false</Readonly>
+                <Defaultvalue></Defaultvalue>
+                <Description>KEY:key_version, Format:yyyyMMdd[A-Z], eg.20200101A</Description>
+                <Display>true</Display>
+                <GroupID>parameter_group_id</GroupID>
+                <FileID>parameter_file_id</FileID>
+            </Parameter>
+        </Header>
+        <!-- Theme -->
+        <Header>
+            <Title>Theme</Title>
+            <DisplayStyle>foldable</DisplayStyle>
+            <DefaultStyle>close</DefaultStyle>
+            <Display>true</Display>
+
+            <Parameter>
+                <Type>single</Type>
+                <InputType>upload</InputType>
+                <DataType>File</DataType>
+                <PID>key_config_file</PID>
+                <Title>Config Json File</Title>
+                <Required>false</Required>
+                <Readonly>false</Readonly>
+                <Description>KEY:key_config_file</Description>
+                <Display>true</Display>
+                <GroupID>parameter_group_id</GroupID>
+                <FileID>parameter_file_id</FileID>
+            </Parameter>
+            <Parameter>
+                <Type>single</Type>
+                <InputType>upload</InputType>
+                <DataType>File</DataType>
+                <PID>key_res_file</PID>
+                <Title>Resource File</Title>
+                <Required>false</Required>
+                <Readonly>false</Readonly>
+                <Description>KEY:key_res_file</Description>
+                <Display>true</Display>
+                <GroupID>parameter_group_id</GroupID>
+                <FileID>parameter_file_id</FileID>
+            </Parameter>
+        </Header>
+    </Parameters>
+</Schema>

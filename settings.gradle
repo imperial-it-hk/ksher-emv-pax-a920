@@ -1,0 +1,5 @@
+rootProject.name = "EVPKSher"
+include ':app'
+include ':eos'
+include ':appstore'
+include ':ksher-sdk'
