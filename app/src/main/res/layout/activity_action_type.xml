@@ -1,0 +1,187 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_all_payment_settlement"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="All Payment Types"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_select_payment_settlement"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Select Payment Type"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_last_transaction_inquiry"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Last transaction"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_suspended_qr_inquiry"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Suspended QR"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_any_transaction_inquiry"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Any transaction"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_last_transaction_print"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Last transaction"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_any_transaction_print"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Any transaction"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_last_settlement_print"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Last Settlement"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_summary_report"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Summary Report"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_audit_report"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Audit Report"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_all_payment_report"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="All Payment Type"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_select_payment_report"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Select Payment Type"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_all_payment_report_audit"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="All Payment Type"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_select_payment_report_audit"
+            style="@style/ActionSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Select Payment Type"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

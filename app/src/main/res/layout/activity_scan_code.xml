@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_layout" />
+
+    <com.evp.payment.ksher.customview.ScanCodeView
+        android:id="@+id/scancodeview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_borderSize="0dp"
+        app:qrcv_cornerColor="#93C465"
+        app:qrcv_cornerDisplayType="center"
+        app:qrcv_cornerLength="24dp"
+        app:qrcv_cornerSize="3dp"
+        app:qrcv_customScanLineDrawable="@drawable/img_scanner_line"
+        app:qrcv_isScanLineReverse="true"
+        app:qrcv_isShowDefaultGridScanLineDrawable="false"
+        app:qrcv_isShowTipBackground="false"
+        app:qrcv_isShowTipTextAsSingleLine="false"
+        app:qrcv_isTipTextBelowRect="false"
+        app:qrcv_maskColor="@color/transparent"
+        app:qrcv_previewFitOrientation="vertical"
+        app:qrcv_previewHeight="480"
+        app:qrcv_previewWidth="640"
+        app:qrcv_rectWidth="220dp"
+        app:qrcv_tipTextColor="@android:color/white"
+        app:qrcv_tipTextMargin="32dp"
+        app:qrcv_tipTextSize="16sp"
+        app:qrcv_toolbarHeight="0dp"
+        app:qrcv_topOffset="180dp"
+        app:qrcv_verticalBias="-1"/>
+
+    <!--    app:qrcv_qrCodeTipText="@string/put_qr_code_into_the_square"-->
+    <ImageView
+        android:id="@+id/iv_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/icon_flashlight_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/turn_on_the_flash"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_flash" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:background="@color/transparent"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toEndOf="@+id/tv_cancel"
+        app:layout_constraintTop_toTopOf="@+id/tv_cancel"
+        app:srcCompat="@drawable/ic_camera_switch" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

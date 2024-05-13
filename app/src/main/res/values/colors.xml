@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E6F3FB</color>
+    <color name="colorPrimaryDark">#203564</color>
+    <color name="colorPrimaryLight">#1583C7</color>
+
+    <color name="textBlueLight">#2675EC</color>
+    <color name="textDefault">#333333</color>
+    <color name="textGray">#8A8989</color>
+    <color name="textGrayLight">#FF999999</color>
+    <color name="textDark">#3E475E</color>
+    <color name="textEditLabel">#FF909BB4</color>
+    <color name="textAmountOrange">#FE720A</color>
+    <color name="textMainMenu">#666666</color>
+
+    <color name="green">#7CB14D</color>
+    <color name="greenDark">#628C3D</color>
+    <color name="greenDisable">#527CB14D</color>
+
+    <color name="keyboardBg">#CCCCCC</color>
+    <color name="toastBg">#858585</color>
+    <color name="editorBg">#FFE2E2E2</color>
+    <color name="codeBgGrayLight">#999999</color>
+    <color name="codeBgGrayLighter">#E6E6E6</color>
+
+    <color name="btnDisabled">#92B5E8</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dividerLight">#EEEEEE</color>
+    <color name="guideDotNormal">#FFD0CCC7</color>
+    <color name="guideDotNoSelect">#64FFFFFF</color>
+    <color name="guideDotSelect">#FF004169</color>
+
+    <color name="btnCancelDisabled">#40E60F00</color>
+    <color name="btnCancel">#E60F00</color>
+    <color name="btnCancelPressed">#A60C02</color>
+
+    <color name="translucent">#80000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="tableLayoutBackground">#E6F3FB</color>
+    <color name="colorBackgroundGray">#EFF0F4</color>
+
+</resources>

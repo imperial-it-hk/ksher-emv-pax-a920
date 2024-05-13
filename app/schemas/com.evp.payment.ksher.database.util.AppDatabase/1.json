@@ -1,0 +1,458 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "a3b2ee1d11c9b96c61c62f3f4e17bbf1",
+    "entities": [
+      {
+        "tableName": "Transaction",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`trans_type` TEXT, `orig_trans_type` TEXT, `trans_status` TEXT DEFAULT 'NORMAL', `currencyConvert` TEXT, `amount` INTEGER, `amountConvert` INTEGER, `exchangeRate` TEXT, `invoice_no` TEXT, `trace_no` INTEGER, `orig_trace_no` INTEGER, `batch_no` INTEGER, `orig_batch_no` INTEGER, `refer_no` TEXT, `orig_refer_no` TEXT, `auth_code` TEXT, `orig_auth_code` TEXT, `mch_order_no` TEXT, `mch_refund_no` TEXT, `transaction_id` TEXT, `payment_channel` TEXT, `terminal_id` TEXT, `merchant_id` TEXT, `store_id` TEXT, `appid` TEXT, `year` TEXT, `orig_year` TEXT, `date` TEXT, `orig_date` TEXT, `time` TEXT, `orig_time` TEXT, `batch_total_send` TEXT, `tm_last_init_date_time` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT)",
+        "fields": [
+          {
+            "fieldPath": "transType",
+            "columnName": "trans_type",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origTransType",
+            "columnName": "orig_trans_type",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "transStatus",
+            "columnName": "trans_status",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "'NORMAL'"
+          },
+          {
+            "fieldPath": "currencyConvert",
+            "columnName": "currencyConvert",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "amount",
+            "columnName": "amount",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "amountConvert",
+            "columnName": "amountConvert",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "exchangeRate",
+            "columnName": "exchangeRate",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "invoiceNo",
+            "columnName": "invoice_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "traceNo",
+            "columnName": "trace_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origTraceNo",
+            "columnName": "orig_trace_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "batchNo",
+            "columnName": "batch_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origBatchNo",
+            "columnName": "orig_batch_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "referNo",
+            "columnName": "refer_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origReferNo",
+            "columnName": "orig_refer_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "authCode",
+            "columnName": "auth_code",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origAuthCode",
+            "columnName": "orig_auth_code",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mchOrderNo",
+            "columnName": "mch_order_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mchRefundNo",
+            "columnName": "mch_refund_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "transactionId",
+            "columnName": "transaction_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "paymentChannel",
+            "columnName": "payment_channel",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "terminalId",
+            "columnName": "terminal_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "merchantId",
+            "columnName": "merchant_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "storeId",
+            "columnName": "store_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "appid",
+            "columnName": "appid",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "year",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origYear",
+            "columnName": "orig_year",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origDate",
+            "columnName": "orig_date",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "origTime",
+            "columnName": "orig_time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "batchTotalSend",
+            "columnName": "batch_total_send",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tmLastInitDateTime",
+            "columnName": "tm_last_init_date_time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_Transaction_trace_no",
+            "unique": true,
+            "columnNames": [
+              "trace_no"
+            ],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_Transaction_trace_no` ON `${TABLE_NAME}` (`trace_no`)"
+          },
+          {
+            "name": "index_Transaction_trans_type",
+            "unique": false,
+            "columnNames": [
+              "trans_type"
+            ],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_Transaction_trans_type` ON `${TABLE_NAME}` (`trans_type`)"
+          }
+        ],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Settlement",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`batch_no` INTEGER, `terminal_id` TEXT, `merchant_id` TEXT, `host_name` TEXT, `channel_datas` TEXT, `grand_total_data` TEXT, `year` TEXT, `date` TEXT, `time` TEXT, `tm_last_init_date_time` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT)",
+        "fields": [
+          {
+            "fieldPath": "batchNo",
+            "columnName": "batch_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "terminalId",
+            "columnName": "terminal_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "merchantId",
+            "columnName": "merchant_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "hostName",
+            "columnName": "host_name",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "channelDatas",
+            "columnName": "channel_datas",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "grandTotalData",
+            "columnName": "grand_total_data",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "year",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tmLastInitDateTime",
+            "columnName": "tm_last_init_date_time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_Settlement_batch_no",
+            "unique": true,
+            "columnNames": [
+              "batch_no"
+            ],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_Settlement_batch_no` ON `${TABLE_NAME}` (`batch_no`)"
+          }
+        ],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "SuspendedQr",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`amount` INTEGER, `trace_no` INTEGER, `batch_no` INTEGER, `mch_order_no` TEXT, `payment_channel` TEXT, `terminal_id` TEXT, `merchant_id` TEXT, `store_id` TEXT, `appid` TEXT, `year` TEXT, `date` TEXT, `time` TEXT, `tm_last_init_date_time` TEXT, `imgdat` TEXT, `tmn_expire_time` TEXT, `status` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT)",
+        "fields": [
+          {
+            "fieldPath": "amount",
+            "columnName": "amount",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "traceNo",
+            "columnName": "trace_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "batchNo",
+            "columnName": "batch_no",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mchOrderNo",
+            "columnName": "mch_order_no",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "paymentChannel",
+            "columnName": "payment_channel",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "terminalId",
+            "columnName": "terminal_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "merchantId",
+            "columnName": "merchant_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "storeId",
+            "columnName": "store_id",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "appid",
+            "columnName": "appid",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "year",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tmLastInitDateTime",
+            "columnName": "tm_last_init_date_time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "qrCode",
+            "columnName": "imgdat",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "qrExpireTime",
+            "columnName": "tmn_expire_time",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_SuspendedQr_trace_no",
+            "unique": true,
+            "columnNames": [
+              "trace_no"
+            ],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_SuspendedQr_trace_no` ON `${TABLE_NAME}` (`trace_no`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a3b2ee1d11c9b96c61c62f3f4e17bbf1')"
+    ]
+  }
+}

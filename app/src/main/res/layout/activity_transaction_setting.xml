@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/header_layout" />
+
+    <View
+        android:id="@+id/v_status_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_header" />
+
+    <RelativeLayout
+        android:id="@+id/btn_comm_timeout"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@android:drawable/list_selector_background"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/v_status_bar">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_timeout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingStart="25dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp"
+            tools:text="New Password" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_timeout_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_timeout_title"
+            android:ellipsize="end"
+            android:paddingStart="25dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true"
+            android:textColor="@color/textGray"
+            android:textSize="20sp"
+            tools:text="New Password" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_right" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cardview_dark_background" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_transaction_no"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@android:drawable/list_selector_background"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_comm_timeout">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_transaction_no_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingStart="25dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp"
+            tools:text="New Password" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_transaction_no_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_transaction_no_title"
+            android:ellipsize="end"
+            android:paddingStart="25dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true"
+            android:textColor="@color/textGray"
+            android:textSize="20sp"
+            tools:text="New Password" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cardview_dark_background" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,251 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1265387623419988750",
+      "lastPropertyId": "42:3472954774590662942",
+      "name": "TransData",
+      "properties": [
+        {
+          "id": "1:2239801757260328008",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6315905722291477662",
+          "name": "transType",
+          "indexId": "1:5338201593635225064",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "3:8828828849498661593",
+          "name": "origTransType",
+          "type": 9
+        },
+        {
+          "id": "4:8450753085981232480",
+          "name": "processingCode",
+          "type": 9
+        },
+        {
+          "id": "5:4449628307104910975",
+          "name": "transStatus",
+          "indexId": "2:9097906259294900657",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:2229814836429591425",
+          "name": "amount",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "7:6727169435764618675",
+          "name": "invoiceNo",
+          "indexId": "3:2432620428090906921",
+          "type": 6,
+          "flags": 12
+        },
+        {
+          "id": "8:5068659639146890034",
+          "name": "traceNo",
+          "indexId": "4:8377458127914370529",
+          "type": 6,
+          "flags": 44
+        },
+        {
+          "id": "9:692295045632821449",
+          "name": "origTraceNo",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "10:4451651194924715605",
+          "name": "batchNo",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "11:3681145405718072418",
+          "name": "origBatchNo",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "12:5797760860974270623",
+          "name": "referNo",
+          "type": 9
+        },
+        {
+          "id": "13:5418668270860699975",
+          "name": "origReferNo",
+          "type": 9
+        },
+        {
+          "id": "14:9051000461861078721",
+          "name": "authCode",
+          "type": 9
+        },
+        {
+          "id": "15:345184465925586270",
+          "name": "origAuthCode",
+          "type": 9
+        },
+        {
+          "id": "16:6041298086837544923",
+          "name": "terminalId",
+          "type": 9
+        },
+        {
+          "id": "17:7487377018127510074",
+          "name": "merchantId",
+          "type": 9
+        },
+        {
+          "id": "18:8322006024079608922",
+          "name": "storeId",
+          "type": 9
+        },
+        {
+          "id": "19:6378886946359398184",
+          "name": "year",
+          "type": 9
+        },
+        {
+          "id": "20:5293009622895918423",
+          "name": "origYear",
+          "type": 9
+        },
+        {
+          "id": "21:3400175880959064104",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "22:6764072382585584939",
+          "name": "origDate",
+          "type": 9
+        },
+        {
+          "id": "23:1718533316852650565",
+          "name": "time",
+          "type": 9
+        },
+        {
+          "id": "24:6844170051427038105",
+          "name": "origTime",
+          "type": 9
+        },
+        {
+          "id": "25:6634772948441652785",
+          "name": "enterMode",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "26:6402070341064260463",
+          "name": "responseCode",
+          "type": 9
+        },
+        {
+          "id": "27:1452164624671746338",
+          "name": "responseMsg",
+          "type": 9
+        },
+        {
+          "id": "28:6406128548695972526",
+          "name": "paymentCode",
+          "type": 9
+        },
+        {
+          "id": "29:8493945368113692589",
+          "name": "vasOrderNo",
+          "type": 9
+        },
+        {
+          "id": "30:6118873871259693913",
+          "name": "requestUUID",
+          "type": 9
+        },
+        {
+          "id": "31:7924945252220578890",
+          "name": "rvCode",
+          "type": 9
+        },
+        {
+          "id": "32:5797409226273842730",
+          "name": "customTableSend",
+          "type": 9
+        },
+        {
+          "id": "33:3642946240795314122",
+          "name": "customTableReceive",
+          "type": 9
+        },
+        {
+          "id": "34:5325044623530649655",
+          "name": "slipPrintingMarkups",
+          "type": 9
+        },
+        {
+          "id": "35:4117067880665623173",
+          "name": "errorMessage",
+          "type": 9
+        },
+        {
+          "id": "36:2650545228074204483",
+          "name": "batchTotalSend",
+          "type": 9
+        },
+        {
+          "id": "37:4224780198247009398",
+          "name": "tmLastInitDateTime",
+          "type": 9
+        },
+        {
+          "id": "38:1956347914833975499",
+          "name": "isPrintQrEnabled",
+          "type": 1,
+          "flags": 4
+        },
+        {
+          "id": "39:7405809870454847025",
+          "name": "mchOrderNo",
+          "type": 9
+        },
+        {
+          "id": "40:7023372644442443462",
+          "name": "paymentChannel",
+          "type": 9
+        },
+        {
+          "id": "41:5852969441163583057",
+          "name": "transactionId",
+          "type": 9
+        },
+        {
+          "id": "42:3472954774590662942",
+          "name": "origMchOrderNo",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:1265387623419988750",
+  "lastIndexId": "4:8377458127914370529",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

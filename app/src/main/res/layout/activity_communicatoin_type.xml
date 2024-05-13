@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/header_layout" />
+
+    <View
+        android:id="@+id/v_status_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_header" />
+
+    <LinearLayout
+        android:id="@+id/btn_mobile_type"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/v_status_bar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_mobile_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="New Password" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_mobile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_confirm_blue" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_00"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mobile_type" />
+
+    <LinearLayout
+        android:id="@+id/btn_wifi_type"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/line_00">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_wifi_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Comm detail" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_wifi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_confirm_blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_01"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@+id/btn_wifi_type" />
+
+    <LinearLayout
+        android:id="@+id/btn_demo_type"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/line_01">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_demo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Acquirer" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_demo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_confirm_blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_02"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@+id/btn_demo_type" />
+
+    <LinearLayout
+        android:id="@+id/btn_lan_type"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/line_02">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_lan_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Password" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_lan"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_confirm_blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_03"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lan_type" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

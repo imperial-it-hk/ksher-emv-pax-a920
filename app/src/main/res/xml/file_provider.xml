@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external_files"
+        path="." />
+
+    <root-path
+        name="external_files"
+        path="/storage/" />
+
+    <external-path
+        name="my_images"
+        path="Android/data/com.evp.payment.evpksher/files/Pictures" />
+
+    <cache-path
+        name="cache_files"
+        path="." />
+
+    <external-files-path
+        name="my_images"
+        path="/" />
+
+    <external-path
+        name="my_images"
+        path="/" />
+
+</paths>

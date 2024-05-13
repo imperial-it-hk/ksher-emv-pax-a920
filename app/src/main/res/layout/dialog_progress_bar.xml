@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog_background"
+    android:minHeight="160dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.evp.payment.ksher.view.progressbar.ProgressWheel
+        android:id="@+id/progressWheel"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="@+id/progressWheel"
+        app:layout_constraintTop_toTopOf="@+id/progressWheel"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/progressWheel"
+        app:layout_constraintEnd_toEndOf="@+id/progressWheel"
+        app:srcCompat="@drawable/ic_approve"/>
+
+    <TextView
+        android:id="@+id/tv_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textDark"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/progressWheel"
+        app:layout_constraintEnd_toEndOf="@id/progressWheel"
+        app:layout_constraintStart_toStartOf="@id/progressWheel"
+        app:layout_constraintTop_toTopOf="@id/progressWheel"
+        tools:text="60s" />
+
+    <TextView
+        android:id="@+id/tv_primary_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_sub_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressWheel"
+        tools:text="Sale Online..." />
+
+    <TextView
+        android:id="@+id/tv_sub_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textDefault"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Timeout 30" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

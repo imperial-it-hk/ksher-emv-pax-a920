@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/header_layout" />
+
+    <View
+        android:id="@+id/v_status_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_header" />
+
+    <LinearLayout
+        android:id="@+id/layout_software"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_edittext_gray"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/v_status_bar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_software_title"
+            style="@style/StandardTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Software Version No." />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_software_detail"
+            style="@style/StandardEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            tools:text="New Password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_config_file"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_edittext_gray"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/layout_software">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_config_title"
+            style="@style/StandardTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Software Version No." />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_config_detail"
+            style="@style/StandardEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            tools:text="New Password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_resource_file"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_edittext_gray"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/layout_config_file">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_resource_title"
+            style="@style/StandardTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Software Version No." />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_resource_detail"
+            style="@style/StandardEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            tools:text="New Password" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
